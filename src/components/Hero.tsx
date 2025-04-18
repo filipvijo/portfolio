@@ -18,7 +18,10 @@ export default function Hero() {
           </h1>
           <div className="space-y-6">
             <p className="text-2xl md:text-3xl text-purple-300 font-semibold">
-              Full Stack Developer
+              Full Stack Developer & AI Integration Specialist
+              <span className="block text-lg mt-2 text-gray-400">
+                Leveraging AI to build smarter, more efficient solutions that adapt and evolve with your business needs
+              </span>
             </p>
             <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
               Transforming ideas into elegant, user-centric web applications
@@ -26,7 +29,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <motion.a
               href="#projects"
               className="btn-primary"

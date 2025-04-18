@@ -6,6 +6,22 @@ import Link from 'next/link';
 
 const projects = [
   {
+    title: 'Cosmic Journey',
+    description: 'Interactive 3D solar system explorer with AI-generated content about planets, including hypothetical landscapes, species, and astrological significance.',
+    image: '/projects/cosmic-journey.PNG',
+    url: 'https://cosmic-journey-backup.vercel.app/',
+    tech: ['React', 'TypeScript', 'Three.js', 'OpenAI API', 'NASA APIs'],
+    features: ['Interactive 3D solar system', 'AI-generated content', 'Astronomy Picture of the Day'],
+  },
+  {
+    title: 'ScentPrint',
+    description: 'Interactive fragrance discovery app with a Tinder-like interface that analyzes user preferences to generate personalized scent profiles and recommendations.',
+    image: '/projects/scentprint.PNG',
+    url: 'https://noiseprint.vercel.app/',
+    tech: ['React.js', 'Tailwind CSS', 'Framer Motion', 'i18next'],
+    features: ['Multilingual support', 'Personalized analysis', 'Interactive swiping interface'],
+  },
+  {
     title: 'Filmseeker',
     description: 'Movie recommendations platform helping users discover their next great film. Built with React 19, featuring seamless movie discovery and personalized recommendations.',
     image: '/projects/filmseeker.PNG',

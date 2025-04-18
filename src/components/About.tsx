@@ -25,7 +25,7 @@ export default function About() {
         >
           <div className="prose prose-invert max-w-none">
             <p className="text-lg text-gray-300 mb-6">
-              I&apos;m Filip, an independent creative professional based in Eastern Europe. With over 20 years of experience, I specialize in web development, UI/UX design, creative direction, motion graphics, video production, and AI-powered tools.
+              I&apos;m Filip, an independent creative professional based in Eastern Europe. With over 10 years of experience, I specialize in web development, UI/UX design, creative direction, motion graphics, video production, and AI-powered tools.
             </p>
 
             <p className="text-lg text-gray-300 mb-6">
@@ -43,7 +43,7 @@ export default function About() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             <div className="text-center">
-              <h3 className="text-3xl font-bold gradient-text mb-2">20+</h3>
+              <h3 className="text-3xl font-bold gradient-text mb-2">10+</h3>
               <p className="text-gray-300">Years Experience</p>
             </div>
             <div className="text-center">
