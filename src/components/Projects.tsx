@@ -6,6 +6,25 @@ import Link from 'next/link';
 
 const projects = [
   {
+    title: 'Hairalyze',
+    description: 'AI-powered hair analysis and care recommendation system. Provides personalized advice, product suggestions, and styling tips based on user input and photo analysis.',
+    image: '/projects/hairalyzer.PNG',
+    url: 'https://hairalyze.vercel.app/',
+    tech: [
+      'React', 'Tailwind CSS', 'Firebase Auth', 'Express.js', 'MongoDB', 'AWS S3', 'Grok Vision API'
+    ],
+    features: [
+      'User authentication',
+      'Hair analysis questionnaire',
+      'Photo upload (hair & product)',
+      'AI-powered analysis',
+      'Personalized recommendations',
+      'Hair care metrics',
+      'Routine & product suggestions',
+      'Bonus tips'
+    ],
+  },
+  {
     title: 'Cosmic Journey',
     description: 'Interactive 3D solar system explorer with AI-generated content about planets, including hypothetical landscapes, species, and astrological significance.',
     image: '/projects/cosmic-journey.PNG',
@@ -36,33 +55,6 @@ const projects = [
     url: 'https://superhero-finder-roan.vercel.app',
     tech: ['React 18', 'TailwindCSS', 'Framer Motion', 'Firebase'],
     features: ['AI integration', 'Internationalization', 'Interactive UI effects'],
-  },
-  {
-    title: 'Fashion Palette',
-    description: 'AI-powered color palette generator that analyzes uploaded images to suggest seasonal color palettes for fashion and accessories.',
-    image: '/projects/fashion-palette.PNG',
-    url: 'https://fashion-palette.vercel.app',
-    tech: ['React', 'styled-components', 'Framer Motion'],
-    features: ['AI color analysis', 'Image processing', 'Social sharing'],
-  },
-  {
-    title: 'Hairalyze',
-    description: 'AI-powered hair analysis and care recommendation system. Provides personalized advice, product suggestions, and styling tips based on user input and photo analysis.',
-    image: '/projects/hairalyzer.PNG',
-    url: 'https://hairalyze.vercel.app/',
-    tech: [
-      'React', 'Tailwind CSS', 'Firebase Auth', 'Express.js', 'MongoDB', 'AWS S3', 'Grok Vision API'
-    ],
-    features: [
-      'User authentication',
-      'Hair analysis questionnaire',
-      'Photo upload (hair & product)',
-      'AI-powered analysis',
-      'Personalized recommendations',
-      'Hair care metrics',
-      'Routine & product suggestions',
-      'Bonus tips'
-    ],
   },
 ];
 
