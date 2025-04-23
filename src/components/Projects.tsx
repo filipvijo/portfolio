@@ -45,6 +45,25 @@ const projects = [
     tech: ['React', 'styled-components', 'Framer Motion'],
     features: ['AI color analysis', 'Image processing', 'Social sharing'],
   },
+  {
+    title: 'Hairalyze',
+    description: 'AI-powered hair analysis and care recommendation system. Provides personalized advice, product suggestions, and styling tips based on user input and photo analysis.',
+    image: '/projects/hairalyzer.PNG',
+    url: 'https://hairalyze.vercel.app/',
+    tech: [
+      'React', 'Tailwind CSS', 'Firebase Auth', 'Express.js', 'MongoDB', 'AWS S3', 'Grok Vision API'
+    ],
+    features: [
+      'User authentication',
+      'Hair analysis questionnaire',
+      'Photo upload (hair & product)',
+      'AI-powered analysis',
+      'Personalized recommendations',
+      'Hair care metrics',
+      'Routine & product suggestions',
+      'Bonus tips'
+    ],
+  },
 ];
 
 export default function Projects() {
