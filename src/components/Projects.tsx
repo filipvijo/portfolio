@@ -6,6 +6,38 @@ import Link from 'next/link';
 
 const projects = [
   {
+    title: 'LabLumen Medical Checker',
+    description: 'AI-powered medical companion for symptom analysis and lab result interpretation. Modern web application focused on medical analysis, leveraging AI for interpreting medical data with a secure and scalable infrastructure.',
+    image: '/projects/LabLumen.PNG',
+    url: 'https://lab-lumen.vercel.app/',
+    tech: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'NextAuth.js',
+      'Supabase',
+      'PostgreSQL',
+      'OpenAI API (GPT-4)',
+      'Grok API',
+      'Vercel Analytics',
+      'Sharp',
+      'pdf-lib',
+      'pdf2pic'
+    ],
+    features: [
+      'AI-powered symptom analysis',
+      'Lab result interpretation',
+      'Authentication with NextAuth.js',
+      'Supabase backend with PostgreSQL',
+      'OpenAI & Grok AI integration',
+      'Vercel Analytics',
+      'Image & PDF processing',
+      'Multi-package manager support',
+      'Environment variable configuration',
+      'TypeScript type safety'
+    ],
+  },
+  {
     title: 'Hairalyze',
     description: 'AI-powered hair analysis and care recommendation system. Provides personalized advice, product suggestions, and styling tips based on user input and photo analysis.',
     image: '/projects/hairalyzer.PNG',
