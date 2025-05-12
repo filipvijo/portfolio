@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react';
 
 const projects = [
   {
@@ -91,6 +92,8 @@ const projects = [
 ];
 
 export default function Projects() {
+  const [showMore, setShowMore] = React.useState(false);
+
   return (
     <section id="projects" className="py-20 bg-gradient-to-b from-transparent to-purple-900/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -106,7 +109,7 @@ export default function Projects() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {projects.slice(0, showMore ? projects.length : 3).map((project, index) => (
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 20 }}
@@ -163,6 +166,15 @@ export default function Projects() {
               </Link>
             </motion.div>
           ))}
+        </div>
+
+        <div className="text-center mt-8">
+          <button
+            onClick={() => setShowMore(!showMore)}
+            className="px-6 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition"
+          >
+            {showMore ? 'Show Less' : 'Show More'}
+          </button>
         </div>
       </div>
     </section>

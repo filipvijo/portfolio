@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Logo and Copyright */}
           <div className="space-y-4">
             <Link href="/" className="text-2xl font-bold text-white">
-              Filip
+              CroolStudio
             </Link>
             <p className="text-gray-400">
               {currentYear} All Rights Reserved
